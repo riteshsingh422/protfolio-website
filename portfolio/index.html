@@ -1,0 +1,339 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title>Portfolio</title>
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="png" href="images/icon3.png">
+ 	<script src="https://kit.fontawesome.com/e26d8f3c3e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="jquery.ripples-min.js"></script>
+ </head>
+ <body>
+
+	<div id="loader">
+		<h1>0% </h1>
+		<h2 id="next">Welcome To My Portfolio <i class="fa-solid fa-heart"></i></h2>
+	</div>
+	
+
+     <div class="overlay">
+ 	<div id="header">
+          <div class="container">
+
+ 			<nav>
+ 			<div class="logo">
+            PORTFO<span>LIO<i class="fa-solid fa-circle-small"></i></span>
+        </div>
+
+ 				<ul id="sidemenu">
+ 					<li><a href="index.html">Home</a></li>
+ 					<li><a href="#about">About</a></li>
+ 					<li><a href="#services">Interest</a></li>
+ 					<li><a href="#portfolio">My Work</a></li>
+ 					<li><a href="#contact">Contact </a></li>
+ 					<i class="fas fa-times" onclick="closemenu()"></i>
+ 				</ul>
+ 				<i class="fas fa-bars" onclick="openmenu()"></i>
+ 			</nav>
+ 			<div class="header-text">
+ 				
+ 				<h1>Hi, I'm <span>Ritesh Singh </span><br>From,<h5>India</h5></h1>
+                <h3><span class="auto-type"></span></h1>
+ 			</div>
+            <a href="images/latest resume.pdf" target="_blank" download class="btn btn2">Download CV</a>
+ 		</div>
+ 	</div>
+ </div>
+<!--------------ABOUT--------------->
+
+ 	<div id="about">
+ 		<div class="container">
+ 			<div class="row">
+
+
+    
+ 				<div class="box">
+        <div class="content">
+           
+        </div>
+    </div>
+    
+
+    
+ 				<div class="about-col-2">
+ 					<h1 class="sub-title">About Me</h1>
+ 					<p>
+ 						Hello! My name is Ritesh singh.I am currently pursuing my bachelor's degree in IT from aec..I bring forth a motivated attitude and dedication for learning more and also to polish my technical skills in a developing and growing organisation. Apart from this, I love doing some extra curriculars like listening podcasts, reading books and mostly I love to travel and explore.
+ 					</p>
+
+ 					<div class="tab-titles">
+ 						<p class="tab-links active-link" onclick="opentab('skills')">Skill's</p>
+ 						<p class="tab-links" onclick="opentab('achievements')">Achievement's</p>
+ 						<p class="tab-links" onclick="opentab('education')">Education</p>
+ 					</div>
+
+ 					<div class="tab-contents active-tab" id="skills">
+ 						<ul>
+ 							<li><span>JAVA PROGRAMMING</span><br>ADVANCED<br><br></li>
+ 							<li><span>C PROGRAMMING</span><br>INTERMEDIATE<br><br></li>
+                            <li><span>WEB DEVELOPMENT</span><br>ADVANCED</li>
+                            
+ 							
+ 							
+ 						</ul>
+ 					</div>
+
+
+ 					<div class="tab-contents" id="achievements">
+ 						<ul>
+ 							<li>GeeksforGeeks Practice :- Rank 5 in Institute among 2000 students<br><br></li>
+ 							<li>600+ Problem Solved on GeeksforGeeks<br><br></li>
+ 							<li>5 Star In JAVA On HackerRank.<br></li>
+ 							
+ 							
+ 						</ul>
+ 					</div>
+
+
+ 					<div class="tab-contents" id="education">
+ 						<ul>
+                            <li><span>2021 - 2024</span><br>B.tech From Asansol Engineering College <br> <br></li>
+                            <li><span>2018 - 2021</span><br>Diploma From Dr. B.c. Roy Polytechnic <br><br></li>
+ 							<li><span>2018</span><br>10th from Dav Public School <br></li>
+ 							
+ 							
+ 							
+ 						</ul>
+ 					</div>
+
+
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+
+ 	<!--------------INTEREST--------------->
+
+ 	<div id="services">
+ 		<div class="container">
+ 			<h1 class="sub-title">MY INTEREST</h1>
+ 			<div class="services-list">
+ 				<div>
+					<i class="fa-solid fa-book"></i>					
+                    <h2>BOOK READING</h2>
+ 					<p>
+						Reading books is important because it helps to expand your knowledge and understanding of the world, improves cognitive function, reduces stress levels, increases empathy and creativity, and provides an escape from everyday life.</p>
+ 					<a href="https://bookishrits.netlify.app/" target="_blank">CLICK HERE</a>
+ 				</div>
+
+ 				
+
+ 
+                <div>
+					<i class="fa-solid fa-computer"></i>                    
+                    <h2>WEB DEVELOPMENT</h2>
+                    <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services</p>
+                    <a href="https://webdevrits.netlify.app/" target="_blank">CLICK HERE</a>
+                </div>
+
+
+
+
+                <div>
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <h2>GYMING</h2>
+                    <p>“To keep the body in good health is a duty… otherwise we shall not be able to keep our mind strong and clear.” “When it comes to eating right and exercising, there is no 'I'll start tomorrow'.”</p>
+                    <a href="https://gymrits.netlify.app/" target="_blank">CLICK HERE</a>
+                </div>
+ 			</div>
+ 		</div>
+ 	</div>
+
+ 	<!----------MY WORK--------->
+
+ 	<div id="portfolio">
+ 		<div class="container">
+ 			<h1 class="sub-title">My Work</h1>
+ 			<div class="work-list">
+ 				
+
+ 				<div class="work">
+ 					<img src="images/weather.jpeg">
+ 					<div class="layer">
+ 						<h3>WEATHER APP</h3>
+ 						<p> In this project, we will use openweather API which provides us free API to get weather details. Here we will add an input field where user will add any city name and as soon city name gets entered an API call will occur and details will be fetched to the screen. This App will be completely depends on API.</p>
+ 						<a href="https://weatherapprits.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+ 					</div>
+ 				</div>
+
+                <div class="work">
+                    <img src="images/apple.jpeg">
+                    <div class="layer">
+                        <h3>APPLE VISION</h3>
+                        <p>Apple Vision Pro is an upcoming mixed-reality headset developed by Apple Inc. It was announced on June 5, 2023, at Apple's Worldwide Developers Conference, with availability scheduled for early 2024 in the United States and later that year internationally.</p>
+                        <a href="https://applevisclone.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+ 				<div class="work">
+ 					<img src="images/portfolio.jpeg">
+ 					<div class="layer">
+ 						<h3>ANIMATED PORTFOLIO</h3>
+ 						<p>
+                            A portfolio website is a unique way to showcase your work and let others know about yourself. It's like an evergreen platform for your projects, case studies, and information about you.</p>
+                            <a href="https://portfolioanimateweb.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a></p>
+ 						
+ 					</div>
+ 				</div>
+
+
+
+
+				 <div class="work">
+                    <img src="images/path.jpeg">
+                    <div class="layer">
+                        <h3>PATHFINDING VISUALIZER</h3>
+                        <p>The goal of this project is to create a web based e-Learning tool, 'PathFinding Visualizer', which can be used to visualize shortest path algorithms. The conceptual application of the project is illustrated by implementation of algorithms like Dijkstra's , A* and DFS.</p>
+                        <a href="https://pathfinderits.netlify.app/#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+
+
+                <div class="work">
+                    <img src="images/anim.jpeg">
+                    <div class="layer">
+                        <h3>ANIMATED WEBSITE</h3>
+                        <p>
+							Website animations are moving images that a web designer uses to capture visitors' attention and often direct them to take certain actions. They can be small animations that draw a user's eye to a specific element, convey a marketing message, or help users move through a webpage more naturally.</p>
+                        <a href="https://animatedritssite.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+
+
+                <div class="work">
+                    <img src="images/design.jpeg">
+                    <div class="layer">
+                        <h3>DESIGN DIVA</h3>
+                        <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience.</p>
+                        <a href="https://designrits.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="work">
+                    <img src="images/modern.jpeg">
+                    <div class="layer">
+                        <h3>MODERN WEBSITE</h3>
+                        <p> A modern website can best be defined by looking at the individual attributes: HTML5 and CSS These are the core technologies for building a modern website.</p>
+                        <a href="https://animated2rits.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+
+
+				<div class="work">
+                    <img src="images/news.jpeg">
+                    <div class="layer">
+                        <h3>NEWS WEBSITE</h3>
+                        <p>News websites are sites devoted to delivering the news in a different format than television, print or radio. News sites include sites that have a large variety of information which may not be considered "news" by all audiences</p>
+                        <a href="https://dailynewshive.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="work">
+                    <img src="images/multipage.jpeg">
+                    <div class="layer">
+                        <h3>Multi-Page Website</h3>
+                        <p>A multi-page website features more than one page. These are the sites you'll be familiar with, where clicking on a link takes you to a new page. </p>
+                        <a href="https://schoolmultipagewebsite.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+ 			</div>
+			 <button type="submit" class="btn3"> <a href="https://github.com/riteshsingh422" target="_blank" style=" color: #fff; text-decoration: none;">GITHUB</a></button>
+ 			
+ 		</div>
+
+ 	</div>
+
+
+ 	<!----------CONTACT------------->
+
+ 	<div id="contact">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="contact-left">
+ 					<h1 class="sub-title">Contact Me</h1>
+ 					<p><i class="fa-solid fa-envelope"><a href="riteshsingh.cst1@gmail.com" style="text-decoration:none" target="_blank"></i>riteshsingh.cst1@gmail.com</p></a>
+ 					<p><i class="fa-solid fa-square-phone"><a href="tel:+91 9233333382" style="text-decoration: none;"></i> +91 9233333382</p></a>
+ 					<div class="social-icons">
+ 					<a href="https://www.facebook.com/login/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+ 					<a href="https://twitter.com/the_real_rits" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+ 					<a href="https://www.instagram.com/its.rits_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+ 					<a href="https://www.linkedin.com/in/riteshsinghit/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+ 				</div>
+ 				
+ 			</div>
+ 				<div class="contact-right">
+					<form method="post" name="submit-to-google-sheet">
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="Email" placeholder="Your Email" required>
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+                    <span id="msg"></span>
+ 				</div>
+ 			</div>
+ 		</div>
+
+ 		<div class="copyright">
+ 			<p>Copyright@RiteshSingh Made With <i class="fa-solid fa-heart"></i></p>
+
+ 		</div>
+ 	</div>
+
+	 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+
+ </body>
+ </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
